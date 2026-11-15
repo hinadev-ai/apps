@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hinadev-apps",
+  "compatibility_date": "2026-11-01",
+  // Static site only: every file under public/ is served as-is.
+  "assets": {
+    "directory": "./public",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "routes": [{ "pattern": "apps.hinadev.com", "custom_domain": true }]
+}
