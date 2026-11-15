@@ -17,7 +17,7 @@ Every page holds all three languages; elements with a `lang` attribute show only
 
 ## Add an app
 
-1. Copy `public/shokutaku/` to `public/<new-app>/` and replace its text, icon and screenshots.
+1. Copy `public/mogu/` to `public/<new-app>/` and replace its text, icon and screenshots.
 2. Add a card for it to `public/index.html`.
 3. Deploy and push.
 
